@@ -1,7 +1,7 @@
 {
   "name": "@mapgis/mapbox-gl-inspect",
   "version": "10.5.5",
-  "description": "Mapbox GL JS plugin for inspecting vector data",
+  "description": "Mapbox-GL矢量数据指示器",
   "main": "index.js",
   "scripts": {
     "test": "eslint lib && eslint index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukasmartinelli/mapbox-gl-inspect.git"
+    "url": "git@github.com:MapGIS/mapbox-gl-inspect.git"
   },
   "keywords": [
     "mapbox",
@@ -20,12 +20,12 @@
     "leaflet",
     "gl"
   ],
-  "author": "Lukas Martinelli",
+  "author": "MapGIS",
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/lukasmartinelli/mapbox-gl-inspect/issues"
   },
-  "homepage": "https://github.com/lukasmartinelli/mapbox-gl-inspect#readme",
+  "homepage": "https://github.com/MapGIS/mapbox-gl-inspect",
   "dependencies": {
     "lodash.isequal": "^4.4.0",
     "randomcolor": "^0.4.4"
