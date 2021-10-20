@@ -1,12 +1,12 @@
 {
-  "name": "mapbox-gl-inspect",
-  "version": "1.3.1",
+  "name": "@mapgis/mapbox-gl-inspect",
+  "version": "10.5.5",
   "description": "Mapbox GL JS plugin for inspecting vector data",
   "main": "index.js",
   "scripts": {
     "test": "eslint lib && eslint index.js",
-    "watch": "mkdir -p dist && watchify index.js --debug -v --standalone MapboxInspect -o dist/mapbox-gl-inspect.js",
-    "build": "mkdir -p dist && NODE_ENV=production browserify index.js --standalone MapboxInspect | uglifyjs - --screw-ie8 --compress --mangle -o dist/mapbox-gl-inspect.min.js",
+    "watch": "mkdir dist && watchify index.js --debug -v --standalone MapboxInspect -o dist/mapbox-gl-inspect.js",
+    "build": "mkdir dist && browserify index.js --standalone MapboxInspect | uglifyjs - --screw-ie8 --compress --mangle -o dist/mapbox-gl-inspect.min.js",
     "docs": "documentation build lib/MapboxInspect.js --shallow --format=md > API.md"
   },
   "repository": {
