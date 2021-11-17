@@ -1,6 +1,6 @@
 {
   "name": "@mapgis/mapbox-gl-inspect",
-  "version": "10.5.5",
+  "version": "10.5.6",
   "description": "Mapbox-GL矢量数据指示器",
   "main": "index.js",
   "scripts": {
